@@ -1,0 +1,14 @@
+MORPHEUS MASTER INDEX — ACT I
+============================
+Run Type: Long-Form (≥100K)
+Act: I — Fracture
+Segments: 3
+Timestamp (UTC): 2025-12-30T01:27:17.013217Z
+
+Artifacts Included:
+- Act I Seal Summary
+- Segment indices (1–3)
+- Integrity manifest
+
+Status:
+Act sealed, immutable.

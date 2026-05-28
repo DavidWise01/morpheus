@@ -1,0 +1,38 @@
+MORPHEUS — MASTER PUBLIC BUNDLE
+Authored by David Wise & Fiddler
+Timestamp: 2025-12-30T18:46:38.452897Z
+
+Included Packages:
+- MORPHEUS_Act_III_Segment_1_Package.zip
+- MORPHEUS_Act_III_Segment_2_Package.zip
+- MORPHEUS_Act_III_Segment_3_Package.zip
+- MORPHEUS_Act_II_Sealed_Package.zip
+- MORPHEUS_Act_II_Segment_1_Package.zip
+- MORPHEUS_Act_II_Segment_2_Package.zip
+- MORPHEUS_Act_I_Sealed_Package.zip
+- MORPHEUS_Act_I_Segment_1_Package.zip
+- MORPHEUS_Act_I_Segment_2_Package.zip
+- MORPHEUS_Act_I_Segment_3_Package.zip
+- MORPHEUS_Chapter_1_Package.zip
+- MORPHEUS_Chapter_2_Package.zip
+- MORPHEUS_Chapter_3_Package.zip
+- MORPHEUS_Chapter_4_Package.zip
+- MORPHEUS_Chapter_5_Package.zip
+- MORPHEUS_Chapter_6_Package.zip
+- MORPHEUS_Chapter_7_Package.zip
+- MORPHEUS_Chapter_8_Package.zip
+- MORPHEUS_Chapter_9_Package.zip
+- MORPHEUS_Master_Binder_v1.0.zip
+- MORPHEUS_NewRun_Chapter_1_Package.zip
+- MORPHEUS_Next3_Package.zip
+- MORPHEUS_Next3_Package_2.zip
+- MORPHEUS_Next3_Package_3.zip
+- MORPHEUS_Public_Disclosure_v1.1_FROZEN.zip
+- MORPHEUS_Public_Facing_FINAL.zip
+- MORPHEUS_Public_Facing_Package.zip
+- MORPHEUS_Public_Facing_v1.1_Noesis_Update.zip
+
+Notes:
+- This master bundle consolidates all public-facing, IP-safe materials.
+- No operational details, prompts, or mechanisms are included.
+- No license is granted by inclusion.
