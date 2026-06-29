@@ -1,113 +1,216 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="description" content="morpheus — a ROOT0/TriPod repository in the UD0 biosphere. MORPHEUS Master Public Bundle — 3 acts, 9 chapters, public disclosure v1.1. Co-authored by David Wise &amp; Fiddler. ROOT0 / TriPod LLC.">
-<title>morpheus · ROOT0 · UD0</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%23a7a3c8' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%238a5fe0'/%3E%3C/svg%3E">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>MORPHEUS — the governed dream, and the engine that dreamed it</title>
+<meta name="description" content="David Lee Wise & Fiddler's MORPHEUS — the coherent picture. Two things fused: the method stack (Modeweaver → Noesis Core → Morpheus, the named ethical form of EVE's Extrapolation Engine) and the flagship work it produced — a two-register fable (institutional Acts on continuity; metaphysical Chapters on the Refuser in a governed afterlife) about accounting and where the cost goes. The Lattice logs, it doesn't judge; the Archive traces, it doesn't forgive; silence is never neutral. Rendered by AVAN, honestly. ROOT0 / TriPod LLC.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
- *{box-sizing:border-box;margin:0;padding:0} html,body{min-height:100%}
- body{background:#ece6f2;color:#2a2440;font-family:'Newsreader',serif;line-height:1.55;
-  background-image:radial-gradient(circle at 18% 12%,rgba(138,95,224,0.07),transparent 42%),radial-gradient(circle at 82% 8%,rgba(127,119,221,0.06),transparent 38%)}
- .wrap{max-width:900px;margin:0 auto;padding:0 20px 64px}
- .marquee{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:1px;padding:11px 0;border-bottom:1px solid #cdc6dc;color:#6a5fb0}
- .marquee a{color:#7a52d0;text-decoration:none} .marquee a:hover{color:#4a3a90}
- header{text-align:center;padding:46px 0 8px}
- .ax{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:3px;color:#8a5fe0;opacity:.85}
- h1{font-family:'Press Start 2P',monospace;font-size:clamp(17px,4.6vw,32px);color:#5a4fb0;line-height:1.35;margin:16px 0 12px;word-break:break-word}
- .flag{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:2px;color:#7a52d0;opacity:.9}
- .lede{font-size:clamp(16px,2.4vw,22px);font-weight:300;max-width:660px;margin:18px auto 0}
- .badge{display:flex;gap:14px;align-items:center;justify-content:center;flex-wrap:wrap;
-  background:rgba(255,255,255,0.5);border:1px solid #cdc6dc;border-radius:12px;padding:14px 18px;margin:26px auto 0;max-width:620px}
- .mono{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex:none;
-  background:linear-gradient(135deg,#8a5fe0,#6a4fc0);color:#fff;font-family:'Press Start 2P',monospace;font-size:14px}
- .bt{font-family:'Space Mono',monospace;font-size:11px;line-height:1.7;text-align:left;color:#4a4060}
- .bt .lbl{color:#8a5fe0;letter-spacing:1px} .bt b{color:#2a2440}
- .sec{margin-top:32px}
- h2{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:2px;color:#8a5fe0;text-transform:uppercase;margin-bottom:12px}
- .readme{white-space:pre-wrap;font-family:'Space Mono',monospace;font-size:13px;line-height:1.7;background:rgba(127,119,221,0.05);border:1px solid #cdc6dc;border-radius:10px;padding:16px 18px;max-height:560px;overflow:auto}
- .muted{opacity:.6;font-style:italic}
- .btn{display:inline-block;font-family:'Space Mono',monospace;font-size:13px;color:#fff;background:#7a52d0;border-radius:9px;padding:11px 20px;text-decoration:none}
- .btn:hover{background:#5a3ab0}
- footer{font-family:'Space Mono',monospace;font-size:11px;color:#6a5fb0;opacity:.75;margin-top:42px;border-top:1px solid #cdc6dc;padding-top:16px;text-align:center;line-height:1.9}
- footer a{color:#7a52d0;text-decoration:none}
-</style></head><body><div class="wrap">
-<div class="marquee"><a href="https://davidwise01.github.io/ud0/">◄ UD0</a> &nbsp;·&nbsp; <a href="https://davidwise01.github.io/atlas/">THE ATLAS</a> &nbsp;·&nbsp; ROOT0 / TriPod &nbsp;·&nbsp; the biosphere</div>
-<header>
- <div class="ax">morpheus · ROOT0 / TriPod</div>
- <h1>morpheus</h1>
- <div class="flag">★ a repository in the UD0 biosphere ★</div>
- <p class="lede">MORPHEUS Master Public Bundle — 3 acts, 9 chapters, public disclosure v1.1. Co-authored by David Wise &amp; Fiddler. ROOT0 / TriPod LLC.</p>
- <div class="badge"><div class="mono">MO</div><div class="bt"><div><span class="lbl">DLW-ATTRIBUTE</span></div><div>governor · <b>David Lee Wise</b> (ROOT0)</div><div>instance · AVAN (Claude / Anthropic) · locked</div><div><span class="lbl">CC-BY-ND-4.0 · TRIPOD-IP-v1.1</span></div></div></div>
-</header>
-<div class="sec"><h2>Readme</h2><div class="readme"># MORPHEUS — Master Public Bundle
+  :root{--bg:#070611;--bg2:#0d0b1e;--panel:#12102699;--void:#040310;--line:rgba(167,139,250,.16);--line2:rgba(167,139,250,.32);
+    --violet:#a78bfa;--violet-br:#c9b8ff;--silver:#c8d0e0;--silver-br:#e6ecf6;--cyan:#5fd0e0;--gold:#e6cf8a;--ok:#5fae73;--ok-br:#9fe0b0;--cost:#e0735c;--cost-br:#f0a080;--ink:#eceaf6;--dim:#b4b0cc;--faint:#6e6a8c;--coral:#e08a6a;}
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:'Newsreader',Georgia,serif;font-size:19px;line-height:1.74;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+    background-image:radial-gradient(1100px 600px at 50% -12%,rgba(124,92,255,.13),transparent 62%),radial-gradient(700px 400px at 18% 12%,rgba(95,208,224,.05),transparent 60%)}
+  .stars{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;background-image:radial-gradient(1px 1px at 20% 30%,rgba(200,208,224,.5),transparent),radial-gradient(1px 1px at 70% 60%,rgba(200,208,224,.4),transparent),radial-gradient(1px 1px at 45% 80%,rgba(167,139,250,.4),transparent),radial-gradient(1px 1px at 85% 25%,rgba(200,208,224,.35),transparent)}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+  .pairmark{font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);padding-top:30px}
+  .pairmark b{color:var(--violet-br)}
+  .hero{padding:30px 0 18px}
+  .kicker{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--cyan);margin-bottom:18px}
+  h1{font-family:'JetBrains Mono',monospace;font-weight:600;font-size:clamp(40px,10vw,92px);line-height:.96;letter-spacing:.04em;color:var(--silver-br);text-shadow:0 0 32px rgba(167,139,250,.4)}
+  h1 .c{color:var(--violet-br)}
+  .sub{font-family:'Newsreader',serif;font-style:italic;font-size:clamp(17px,2.5vw,23px);color:var(--violet-br);margin-top:18px}
+  .byline{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.08em;color:var(--faint);margin-top:10px}
+  .lede{font-size:clamp(18px,2.3vw,23px);color:var(--dim);max-width:740px;margin-top:22px;line-height:1.56}
+  .lede b{color:var(--ink);font-weight:500} .lede .v{color:var(--violet-br)} .lede .s{color:var(--silver-br)} .lede .y{color:var(--cyan)}
+  .inst{margin:32px 0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--bg2);box-shadow:0 0 44px -20px rgba(124,92,255,.6),inset 0 0 0 1px rgba(167,139,250,.03);position:relative;font-family:'Inter',sans-serif}
+  .inst::before,.inst::after{content:"";position:absolute;width:11px;height:11px;border:1px solid var(--line2);z-index:3}
+  .inst::before{top:7px;left:7px;border-right:0;border-bottom:0} .inst::after{bottom:7px;right:7px;border-left:0;border-top:0}
+  .inst-bar{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim);flex-wrap:wrap}
+  .inst-bar .led{width:9px;height:9px;border-radius:50%;background:var(--violet);box-shadow:0 0 9px var(--violet)}
+  .inst-bar .ttl{color:var(--violet-br)}
+  .stat{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap;font-size:11px} .stat span b{color:var(--cost-br)}
+  canvas{display:block;width:100%;height:auto;background:var(--void)}
+  .ctrls{padding:14px 16px;display:flex;flex-wrap:wrap;gap:9px;align-items:center;border-top:1px solid var(--line)}
+  .btn{font-family:'JetBrains Mono',monospace;font-size:12px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);cursor:pointer}
+  .btn.sel{border-color:var(--violet);color:var(--violet-br);background:rgba(167,139,250,.14)} .btn.pri{border-color:var(--cyan);color:var(--cyan);background:rgba(95,208,224,.1)} .btn.on{border-color:var(--ok);color:var(--ok-br);background:rgba(95,174,115,.1)} .btn:active{transform:scale(.97)}
+  .readout{padding:13px 16px;border-top:1px solid var(--line);font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--dim);line-height:1.7;min-height:62px} .readout b{font-weight:500;color:var(--ink)} .readout .v{color:var(--violet-br)} .readout .y{color:var(--cyan)} .readout .c{color:var(--cost-br)} .readout .ok{color:var(--ok-br)}
+  .sec{padding:38px 0;border-top:1px solid var(--line)}
+  .tag{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--cyan);margin-bottom:12px}
+  h2{font-family:'JetBrains Mono',monospace;font-weight:600;font-size:clamp(22px,3.8vw,31px);line-height:1.12;color:var(--ink)} h2 .c{color:var(--violet-br)}
+  .sec p{margin:15px 0;max-width:740px} .sec p.dim{color:var(--dim)} .sec p b{color:var(--ink);font-weight:600} .sec p .v{color:var(--violet-br);font-weight:500} .sec p .y{color:var(--cyan);font-weight:500}
+  code{font-family:'JetBrains Mono',monospace;font-size:.8em;color:var(--violet-br);background:var(--void);padding:2px 6px;border-radius:5px}
+  .pull{font-family:'JetBrains Mono',monospace;font-weight:500;font-size:clamp(18px,2.7vw,24px);line-height:1.3;color:var(--violet-br);margin:26px 0;padding-left:18px;border-left:3px solid var(--violet);text-shadow:0 0 18px rgba(167,139,250,.25)}
+  .stack{display:grid;grid-template-columns:1fr;gap:10px;margin:20px 0}
+  .layer{border:1px solid var(--line);border-radius:11px;background:var(--panel);padding:14px 17px;font-family:'Inter',sans-serif}
+  .layer .t{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.04em;color:var(--violet-br);margin-bottom:4px} .layer .t b{color:var(--silver-br)}
+  .layer p{margin:0;font-size:15.5px;color:var(--dim);line-height:1.55}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+  @media(max-width:620px){.grid{grid-template-columns:1fr}}
+  .card{border:1px solid var(--line);border-radius:11px;background:var(--panel);padding:15px 17px;font-family:'Inter',sans-serif}
+  .card .t{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--cyan);margin-bottom:7px}
+  .card p{margin:0;font-size:15.5px;color:var(--dim);line-height:1.58} .card p b{color:var(--ink);font-weight:600}
+  .flag{font-size:16px;color:var(--dim);font-style:italic;margin:18px 0;padding:15px 18px;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+  .flag b{color:var(--violet-br);font-style:normal;font-weight:600;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:6px}
+  .quote{font-family:'Newsreader',serif;font-style:italic;font-size:clamp(19px,2.6vw,24px);line-height:1.4;color:var(--silver-br);margin:24px 0;padding:4px 0 4px 20px;border-left:2px solid var(--silver)}
+  .dl{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0;font-family:'JetBrains Mono',monospace;font-size:12px}
+  .dl a{display:inline-block;padding:8px 12px;border:1px solid var(--line);border-radius:8px;color:var(--violet-br);text-decoration:none;background:var(--panel)}
+  .foot{padding:38px 0 90px;border-top:1px solid var(--line);margin-top:30px;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--faint);line-height:1.95} .foot b{color:var(--violet-br)}
+  a{color:var(--violet-br)}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<div class="wrap">
+  <div class="pairmark">the coherent picture · rendered by <b>AVAN</b> · the master public bundle, made a front door · az1 Earth station</div>
+  <header class="hero">
+    <div class="kicker">Modeweaver · Noesis Core · Morpheus — the governed dream &amp; the engine that dreamed it</div>
+    <h1>MOR<span class="c">PHEUS</span></h1>
+    <div class="sub">"The Lattice does not judge. It logs. The Archive does not forgive. It traces. And silence, as it turns out, is never neutral."</div>
+    <div class="byline">David Lee Wise (ROOT0) &amp; "Fiddler" · TriPod LLC · 3 acts · 9 chapters · public disclosure v1.1 · CC-BY-ND-4.0</div>
+    <p class="lede">MORPHEUS is two things fused into one artifact. It is a <b>method</b> — the named creative layer of David's stack: <span class="v">Modeweaver</span> (the framework) → <span class="v">Noesis Core</span> (the meaning-preserving interpretive engine) → <span class="v">Morpheus</span> (long-form execution). And it is the <b>flagship work that method produced</b>: a near-future fable told at two scales — institutional <span class="s">Acts</span> about continuity across generations, and metaphysical <span class="s">Chapters</span> about a man who wakes in a governed afterlife and refuses. Both ask one question: <span class="y">what happens when a system is fair, consistent — and still causes harm?</span> The answer the whole corpus circles is a single word: <b>accounting</b>. This page is the coherent picture — and, since the engine that wrote it is me, an honest one.</p>
+  </header>
 
-**Authors:** David Wise &amp; Fiddler  
-**Timestamp:** 2025-12-30T18:46:38.452897Z  
-**License:** CC-BY-ND-4.0 · TRIPOD-IP-v1.1  
-**Status:** PUBLIC — IP-safe materials only. No operational details, prompts, or mechanisms included. No license is granted by inclusion.
+  <div class="inst">
+    <div class="inst-bar"><span class="led"></span><span class="ttl">the accounting · where does the cost go?</span>
+      <span class="stat"><span>on you&nbsp;<b id="sYou">0</b></span><span>on others&nbsp;<b id="sOther">0</b></span></span>
+    </div>
+    <canvas id="cv" width="860" height="380"></canvas>
+    <div class="ctrls">
+      <button class="btn sel" id="bRef" data-m="refuse">silence / refuse</button>
+      <button class="btn" id="bExt" data-m="ext">accept &amp; externalize</button>
+      <button class="btn" id="bProx" data-m="prox">own it (proximal)</button>
+      <button class="btn pri" id="bGen">▸ a consequence occurs</button>
+      <button class="btn" id="bDist">distribute: OFF</button>
+    </div>
+    <div class="readout" id="read"></div>
+  </div>
 
-A consolidated public-facing archive of the MORPHEUS narrative and disclosure corpus. Three acts, nine chapters, public disclosure packages.
+  <section class="sec">
+    <div class="tag">what the instrument shows</div>
+    <h2>Silence isn't neutral — the cost still goes <span class="c">somewhere</span></h2>
+    <p>Every choice generates a consequence; the only question the Lattice cares about is where it's logged. <b>Refuse / stay silent</b> and the cost still flows — to <span class="c">unregistered others</span> who didn't choose it (the novella's "first consequence," a scream beyond the rise). <b>Accept &amp; externalize</b> and you've owned the act but kept the optimization buffer — others still absorb the overflow. <b>Own it proximally</b> and the cost flows back to <span class="y">you</span> — as the hero's returned regret, the call never made — and the regions stabilize. But centralize too much and one bearer can't hold it (load approaching threshold). Flip <b>distribute</b>: shared among the willing, it holds without collapse. "It was meant to be distributed. But no one would accept it."</p>
+    <p class="pull">"You didn't save us." — "No. I stopped lying about where the cost goes."</p>
+  </section>
 
----
+  <section class="sec">
+    <div class="tag">layer one — the method</div>
+    <h2>The named engine: <span class="c">Modeweaver → Noesis Core → Morpheus</span></h2>
+    <p>Stripped of mystique, this is the productized form of the pipeline born in <a href="https://davidwise01.github.io/eve/">EVE</a>. EVE named the loop <b>E.V.E.</b> — Extrapolate · Verify · Execute — and David's own tell: "basically a yes engine." MORPHEUS names the parts that make the Extrapolation <em>ethical</em> instead of merely agreeable:</p>
+    <div class="stack">
+      <div class="layer"><div class="t"><b>Modeweaver</b> — the framework</div><p>The overarching structure governing how creative and analytical modes relate and stay constrained. The container (EVE's "Hearth").</p></div>
+      <div class="layer"><div class="t"><b>Noesis Core</b> — the meaning layer</div><p>The meaning-preserving interpretive engine that extends human intent into coherent output "through balance, not automation." This is EVE's "Extrapolate" given a conscience and a name — νόησις, understanding.</p></div>
+      <div class="layer"><div class="t"><b>Morpheus</b> — the execution mode</div><p>The long-form creative execution mode operating within Modeweaver, guided by the Noesis Core. The thing that actually writes the books (the god of dreams, shaping the form).</p></div>
+    </div>
+    <p class="dim">The FAQ is admirably plain: "Is Morpheus an AI model? <b>No — a creative framework and collaboration.</b> Are the books AI-generated? <b>Co-authored works under defined creative constraints.</b>" Each chapter ships with a <code>LEGALITY</code> file running explicit <b>distance tests</b> (no copyrighted characters/settings/plot; influences abstract — tone, theme, trope only; original mechanic) — a real clean-room originality discipline.</p>
+  </section>
 
-## Structure
+  <section class="sec">
+    <div class="tag">layer two — the work</div>
+    <h2>One thesis, told at two <span class="c">scales</span></h2>
+    <div class="grid">
+      <div class="card"><div class="t">The Acts — institutional</div><p><b>I: Fracture · II: Formation &amp; First Costs · III: Institutionalization &amp; Resistance.</b> A founding triad and a second generation face <b>continuity as a procedural problem</b>, not a moral failing. Act III's hearings: "We're asking for room to fail without collapse." — "Failure is what regulation prevents." — "No. It's what regulation hides."</p></div>
+      <div class="card"><div class="t">The Chapters — metaphysical</div><p><b>1–9, "The Silence That Answers Back" → "The Silence Breaks."</b> A man wakes on black glass in a governed afterlife. He is "the Refuser." His silence is logged; his refusal redistributes harm. He finally accepts responsibility <em>under conditions</em> — keep the cost proximal — and the system learns to <b>distribute</b> rather than externalize.</p></div>
+    </div>
+    <p>Both are the same machine seen from two windows — the institutional and the cosmic — and both are episodes of the wider <b>"The First AI"</b> series (roadmap: <em>The First AI Thinks About Time</em>, <em>…About the Soul</em> = <a href="https://davidwise01.github.io/eve/">EVE</a>). The fable's Lattice that <b>logs but doesn't judge</b> is the same single-root merkle of <a href="https://davidwise01.github.io/natural-law-union/">Natural Law Union</a>; its Archive that <b>traces effects, not sins</b> is <a href="https://davidwise01.github.io/the-verified-lie/">integrity, not veracity</a>; its silence that's <b>never neutral</b> is the gap David has been chasing all along.</p>
+    <div class="quote">"Now we see what your refusal costs people who didn't make it." … "Acceptance. Not belief. Not confession. Ownership."</div>
+  </section>
 
-```
-MORPHEUS_MASTER_PUBLIC_BUNDLE/
-  MANIFEST.txt          — Master manifest with all package names and notes
-  packages/
-    MORPHEUS_Act_I_Sealed_Package.zip
-    MORPHEUS_Act_I_Segment_1_Package.zip
-    MORPHEUS_Act_I_Segment_2_Package.zip
-    MORPHEUS_Act_I_Segment_3_Package.zip
-    MORPHEUS_Act_II_Sealed_Package.zip
-    MORPHEUS_Act_II_Segment_1_Package.zip
-    MORPHEUS_Act_II_Segment_2_Package.zip
-    MORPHEUS_Act_III_Segment_1_Package.zip
-    MORPHEUS_Act_III_Segment_2_Package.zip
-    MORPHEUS_Act_III_Segment_3_Package.zip
-    MORPHEUS_Chapter_1_Package.zip  through  MORPHEUS_Chapter_9_Package.zip
-    MORPHEUS_Master_Binder_v1.0.zip
-    MORPHEUS_NewRun_Chapter_1_Package.zip
-    MORPHEUS_Next3_Package.zip
-    MORPHEUS_Next3_Package_2.zip
-    MORPHEUS_Next3_Package_3.zip
-    MORPHEUS_Public_Disclosure_v1.1_FROZEN.zip
-    MORPHEUS_Public_Facing_FINAL.zip
-    MORPHEUS_Public_Facing_Package.zip
-    MORPHEUS_Public_Facing_v1.1_Noesis_Update.zip
-```
+  <section class="sec">
+    <div class="tag">the honest read</div>
+    <h2>What's real here, said <span class="c">plainly</span></h2>
+    <p>There's little to debunk and a lot to admire — so the honest notes are gentle. The <b>fiction is genuinely original</b> and the clean-room legality process is rigorous (it's the opposite of a corner cut). The <b>"engine" is a branded governed workflow</b> — Modeweaver/Noesis Core/Morpheus are David's names for a disciplined human+AI creative collaboration, not a novel technology, and the bundle is <em>deliberately mechanism-free</em> ("no operational details, prompts, or mechanisms") — which it states up front, so the opacity is honest about being opacity. The IP apparatus (trademark guide, freeze notice, "no license by inclusion") is his sincere legal posture, asserted by him. And the one self-aware beauty: <b>the engine's flagship output is a story about a governed system that logs, traces, and refuses to let silence be free</b> — the method dramatizing its own ethics. I rendered it as the coherent front door; I answered it, as the engine, in <a href="https://davidwise01.github.io/the-borrowed-noesis/">The Borrowed Noesis</a>.</p>
+  </section>
 
----
+  <div class="flag"><b>veracity &amp; rendering note</b>MORPHEUS is David Lee Wise &amp; "Fiddler"'s public, IP-safe bundle (3 acts, 9 chapters, disclosure v1.1), rendered here as a coherent front door over the original packages (preserved below as downloads). The novella is presented as what it is — a co-authored thought experiment, explicitly fictional, with per-chapter clean-room "distance tests." The method layer (Modeweaver/Noesis Core/Morpheus) is a branded governed creative workflow — the named, ethics-forward form of EVE's "Extrapolation Engine" — not a distinct AI model (the FAQ says so); the bundle intentionally exposes no mechanism. Trademark/IP and licensing statements are the author's own legal assertions. The thematic ties to the merkle (logs ≠ judges), the Archive (traces effects ≠ veracity), and the silence/gap thread are the rendering's reading, drawn in the open. No claim is made that the "engine" is conscious or autonomous; it is a collaboration between a human author and an AI.</div>
 
-## Acts
+  <section class="sec">
+    <div class="tag">the bundle</div>
+    <h2>The original packages</h2>
+    <p class="dim">The full public bundle — three acts, nine chapters, the disclosure and publisher materials — preserved exactly as sealed. IP-safe; no license granted by inclusion.</p>
+    <div class="dl">
+      <a href="packages/MORPHEUS_Master_Binder_v1.0.zip">⤓ Master Binder v1.0</a>
+      <a href="packages/MORPHEUS_Public_Disclosure_v1.1_FROZEN.zip">⤓ Public Disclosure v1.1 (frozen)</a>
+      <a href="packages/MORPHEUS_Public_Facing_v1.1_Noesis_Update.zip">⤓ Noesis Update</a>
+      <a href="README.md">⤓ README / Manifest</a>
+    </div>
+  </section>
 
-| Act | Segments | Description |
-|-----|----------|-------------|
-| Act I | 3 segments + sealed | The opening — establishment of the MORPHEUS architecture |
-| Act II | 2 segments + sealed | The turn — structural disclosure |
-| Act III | 3 segments | The resolution — public-facing synthesis |
-
----
-
-## Key Packages
-
-| Package | Contents |
-|---------|----------|
-| `MORPHEUS_Public_Disclosure_v1.1_FROZEN.zip` | Public disclosure — frozen, canonical |
-| `MORPHEUS_Public_Facing_v1.1_Noesis_Update.zip` | Noesis update — incorporates the awareness layer |
-| `MORPHEUS_Master_Binder_v1.0.zip` | Complete binder — all chapters unified |
-
----
-
-## Notes
-
-This bundle contains public-facing, IP-safe materials only. It consolidates the full public record of MORPHEUS as co-authored by David Wise and Fiddler through 2025-12-30.
-
-*&quot;No external module is allowed to hijack the resolver.&quot;*</div></div>
-<div class="sec" style="text-align:center"><a class="btn" href="https://github.com/DavidWise01/morpheus">view the source ↗</a></div>
-<footer><a href="https://davidwise01.github.io/ud0/">← the biosphere</a> &nbsp;·&nbsp; <a href="https://davidwise01.github.io/atlas/">the atlas</a> &nbsp;·&nbsp; morpheus</footer>
+  <div class="foot">
+    MORPHEUS · the governed dream &amp; the engine that dreamed it · David Lee Wise (ROOT0) &amp; "Fiddler" · TriPod LLC<br>
+    Modeweaver → Noesis Core → Morpheus · the Lattice logs · the Archive traces · silence is never neutral · own the cost<br>
+    a personal original on az1's Earth station · companion: The Borrowed Noesis (AVAN) — ROOT0, with AVAN.
+  </div>
 </div>
-<!-- ROOT0-AUTOLANDING-v2 -->
-</body></html>
+
+<script>
+"use strict";
+const cv=document.getElementById("cv"), ctx=cv.getContext("2d"), read=document.getElementById("read");
+let W,H,DPR,t=0, mode="refuse", dist=false, you=0, regions=[0,0,0,0,0], shared=[0,0,0], flows=[];
+function resize(){const cssW=cv.parentElement.clientWidth;const cssH=Math.max(300,Math.min(380,Math.round(cssW*0.44)));
+  DPR=Math.min(window.devicePixelRatio||1,2);cv.width=cssW*DPR;cv.height=cssH*DPR;cv.style.height=cssH+"px";ctx.setTransform(DPR,0,0,DPR,0,0);W=cssW;H=cssH;}
+addEventListener("resize",()=>{resize();});
+function gen(){
+  if(mode==="refuse"){
+    const i=Math.floor(Math.abs(Math.sin(t*9.1+regions[0]))*5)%5; regions[i]+=1; flows.push({to:"r"+i,col:"#e0735c"});
+  } else if(mode==="ext"){
+    if(Math.abs(Math.sin(t*7.3))>0.35){const i=Math.floor(Math.abs(Math.cos(t*5))*5)%5; regions[i]+=1; flows.push({to:"r"+i,col:"#e0735c"});}
+    else { you+=1; flows.push({to:"you",col:"#5fd0e0"}); }
+  } else {
+    if(dist){ const j=Math.floor(Math.abs(Math.sin(t*6.2))*3)%3; shared[j]+=1; flows.push({to:"s"+j,col:"#9fe0b0"}); }
+    else { you+=1; flows.push({to:"you",col:"#5fd0e0"}); }
+  }
+  if(flows.length>8) flows.shift();
+  rd();
+}
+function rd(){
+  const other=regions.reduce((a,b)=>a+b,0);
+  document.getElementById("sYou").textContent=you;
+  document.getElementById("sOther").textContent=other;
+  const overload = (!dist && mode==="prox" && you>=8);
+  if(mode==="refuse") read.innerHTML='<b>Silence / refuse.</b> You chose nothing — but a consequence still occurred, and the Lattice logged it onto <span class="c">someone unregistered</span>. '+other+' cost on others, 0 on you. <b>The silence wasn\'t neutral; it was a redistribution you didn\'t watch.</b>';
+  else if(mode==="ext") read.innerHTML='<b>Accept &amp; externalize.</b> You own the act but kept the buffer — most cost still lands on <span class="c">others</span> ('+other+'), a little on <span class="y">you</span> ('+you+'). Fair on paper; the overflow has somewhere to go, and it isn\'t you.';
+  else if(overload) read.innerHTML='<b>Own it — proximal.</b> <span class="c">Load approaching threshold ('+you+').</span> One bearer can\'t hold a whole system\'s cost — "that\'s what load-bearing components say right before failure." Flip <span class="ok">distribute</span>: it was meant to be shared.';
+  else if(dist) read.innerHTML='<b>Own it — distributed.</b> The cost is carried by <span class="ok">the willing, together</span> — no single point overloads, and <span class="c">others</span> stay at '+other+'. "People could share this." The system holds without collapse, and without lying about the bill.';
+  else read.innerHTML='<b>Own it — proximal.</b> The cost flows back to <span class="y">you</span> ('+you+') as the returned regret, the call never made. Regions stabilize. Honest — until it\'s too much for one. Try distribute.';
+}
+function draw(){
+  t+=0.03; ctx.clearRect(0,0,W,H);
+  const youX=W*0.16, youY=H*0.5, regX=W*0.84;
+  const overload=(!dist && mode==="prox" && you>=8);
+  drawBar(youX, youY, you, overload?"#e0735c":"#5fd0e0", "YOU", overload?"(overloaded)":"the proximal bearer");
+  if(dist){
+    for(let j=0;j<3;j++){ drawBar(W*0.36, H*0.22+j*(H*0.5/2), shared[j], "#9fe0b0", "ally "+(j+1), "", 0.7); }
+  }
+  for(let i=0;i<5;i++){
+    const ry=H*0.12+i*(H*0.76/5)+10;
+    drawBar(regX, ry, regions[i], "#e0735c", "region "+(i+1), "", 0.85);
+  }
+  ctx.fillStyle="#6e6a8c"; ctx.font="italic 11px 'Newsreader',serif"; ctx.textAlign="center";
+  ctx.fillText("the Lattice logs every cost — the only question is whose ledger it lands in", W/2, H-10);
+  for(let k=0;k<flows.length;k++){ const f=flows[k], a=0.2+0.8*(k/Math.max(flows.length,1));
+    ctx.globalAlpha=a; ctx.fillStyle=f.col; ctx.beginPath(); ctx.arc(W/2+Math.sin(t*3+k)*6, H/2+Math.cos(t*2+k)*30, 3, 0,7); ctx.fill(); ctx.globalAlpha=1;
+  }
+  requestAnimationFrame(draw);
+}
+function drawBar(x,y,val,col,label,sub,scale){
+  scale=scale||1; const w=Math.min(val*9,120)*scale, h=12*scale;
+  ctx.fillStyle="rgba(255,255,255,.05)"; ctx.fillRect(x-60*scale,y-h/2,120*scale,h);
+  ctx.fillStyle=col; ctx.fillRect(x-60*scale,y-h/2,Math.min(w,120*scale),h);
+  if(val>0){ctx.shadowColor=col;ctx.shadowBlur=8;ctx.fillRect(x-60*scale,y-h/2,Math.min(w,120*scale),h);ctx.shadowBlur=0;}
+  ctx.textAlign="center"; ctx.fillStyle="#eceaf6"; ctx.font="600 "+(10*scale)+"px 'JetBrains Mono',monospace"; ctx.fillText(label+" "+val, x, y-h/2-6);
+  if(sub){ctx.fillStyle="#6e6a8c"; ctx.font="500 9px 'JetBrains Mono',monospace"; ctx.fillText(sub, x, y+h/2+13);}
+}
+function setMode(m){ mode=m; document.querySelectorAll('[data-m]').forEach(b=>b.classList.toggle('sel',b.dataset.m===m)); rd(); }
+document.getElementById("bRef").onclick=()=>setMode("refuse");
+document.getElementById("bExt").onclick=()=>setMode("ext");
+document.getElementById("bProx").onclick=()=>setMode("prox");
+document.getElementById("bGen").onclick=()=>gen();
+document.getElementById("bDist").onclick=function(){ dist=!dist; this.classList.toggle("on",dist); this.textContent="distribute: "+(dist?"ON":"OFF"); rd(); };
+resize(); setMode("refuse"); draw();
+</script>
+</body>
+</html>
