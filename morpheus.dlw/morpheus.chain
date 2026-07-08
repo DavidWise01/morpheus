@@ -1,0 +1,9 @@
+ROOT0-DLW-CHAIN-v1
+index : 407
+slug  : morpheus
+seal  : 4abd61ec6535d152a44991c1ec9075d87810ebc661c362794eb74984537ca824
+prev  : 76fb28e6561f9d598e4848b13f6773c8dd1eaabbc4971490a153228b99404574
+link  : 1598d44de8b7e377643f182cb35fcae3e63e1d70b8c042ba3e771adfa2919ced
+head  : 3447d3a0533aaf1e29a8bdc67a9774884fb3ae9dbc8a17064b7a008ca3c4ec90
+
+— the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
